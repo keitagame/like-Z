@@ -1,0 +1,23 @@
+" ZED configuration file (~/.zedrc)
+" Lines starting with " are comments
+
+" ── Display ──────────────────────────────────────────
+set nu
+set rnu
+set scrolloff=8
+set hlsearch
+set autoindent
+syntax on
+
+" ── Keybindings ──────────────────────────────────────
+" Quick save
+nmap <C-s> :w
+" Quick quit
+nmap Q :q!
+" Clear search highlight
+nmap <leader>/ :noh
+" Move between buffers
+nmap <Tab> :bn
+nmap <S-Tab> :bp
+" Indent/unindent in visual stays in visual
+" (handled internally)
